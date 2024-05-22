@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "Runner executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "port": {
+      "type": "number",
+      "description": "Port number to use"
+    },
+    "hostname": {
+      "type": "string",
+      "description": "The host name to bind to"
+    }
+  },
+  "required": []
+}
